@@ -33,6 +33,7 @@
 		"node": "20.9.0",
 		"npm": "10.2.4"
 	},
+	"packageManager": "yarn@4.9.1",
 	"scripts": {
 		"delete-build": "rimraf build",
 		"build": "tsc -p tsconfig.esm.json && tsc -p tsconfig.cjs.json",
